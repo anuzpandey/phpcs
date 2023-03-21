@@ -1,0 +1,20 @@
+{
+    "name": "anuzpandey/phpcs",
+    "description": "A PHP composer package to create a custom Ruleset that you can reuse in all of your projects.",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anuz Pandey",
+            "email": "anuz.pandey123@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
